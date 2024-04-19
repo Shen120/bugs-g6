@@ -1,0 +1,19 @@
+.contextMenu {
+  width: 200px;
+  position: fixed;
+  box-shadow: rgb(215, 215, 215) 0px 0px 10px;
+  z-index: 100000;
+  transition: all 0.1s ease-in-out;
+  :global {
+    .ant-menu-item,.ant-menu-submenu-title {
+      height: 30px;
+      line-height: 30px;
+
+      &:hover {
+        color: #1890ff;
+        background-color: #bad1fb !important;
+
+      }
+    }
+  }
+}
